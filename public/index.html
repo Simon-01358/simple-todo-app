@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple To-Do App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>To-Do List</h1>
+    <p class="sub">Frontend (HTML/JS) talking to a Node/Express backend</p>
+
+    <form id="add-form">
+      <input id="new-todo" type="text" placeholder="What needs doing?" autocomplete="off" required />
+      <button type="submit">Add</button>
+    </form>
+
+    <ul id="list"></ul>
+
+    <p id="status" class="status">Checking backend…</p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
